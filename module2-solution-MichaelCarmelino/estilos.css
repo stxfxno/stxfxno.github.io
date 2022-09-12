@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo{
+    margin-top: 60px;
+    width: 992px;
+}
+.todo h1{
+    text-align: center;
+}
+
+.Chicken, .Beef, .Sushi{
+    background-color:darkgrey;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    text-align: left;
+    border: 2px solid black;
+    position: relative;
+}
+
+.minimenu1, .minimenu2, .minimenu3{
+    width: 100px;    height: 50px;    border: 2px solid black;
+    text-align: center;    float: right;
+    margin: 0%;
+}
+
+.descrip1, .descrip2, .descrip3{
+    margin: 5px;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+}
+
+.minimenu1{
+    background-color: rgb(236, 156, 147);
+}
+
+.minimenu2{
+    background-color:firebrick;
+    color: white;
+}
+.minimenu3{
+    background-color:khaki;
+}
